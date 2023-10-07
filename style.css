@@ -1,0 +1,154 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px ;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amazonlogo.png");
+    height: 57px;
+    width: 100px;
+    background-size: cover;
+
+}
+
+.nav-logo{
+    height: 57px;
+    width: 100px;
+    background-color: #0f1111;
+}
+
+.border{
+    border: 2px transparent;
+}
+
+.border:hover{
+    border: 2px solid white
+}
+/**Location box**/
+
+.nav-location{
+  /** margin-left: 4px; **/
+    border: border-box;
+    font-size: 2pxrem;
+
+}
+.loc-1{
+    margin-top: 10px;
+}
+.loc-line2{
+    display: flex;
+
+}
+.loc-2{
+    margin-left: 5px;
+}
+
+/**Serach part**/
+.nav-search{
+    display: flex;
+    width: 800px;
+    height: 40px; 
+}
+.nav-searchinput{
+    display: flex;
+    width: 100%;
+}
+.search-icon{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcba03;
+}
+
+/**Cart**/
+.cart{
+    display: flex;
+}
+.cart i{
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+
+
+
+/* PANEL */
+.panel{
+    background-color: #232f3e;
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    
+}
+.main-image{
+    background-image: url(mainimage2.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+}
+
+.main-body{
+    background-color:#Ee5e1c;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.boxes{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color: black;
+ }
+.box-text{
+    margin: 10px;
+    font-size: 15px;
+    align-items: center;
+
+}
+.im1{
+    background-image: url("im1.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.im2{
+    background-image: url("im2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}.im3{
+    background-image: url("im3.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}.im4{
+    background-image: url("im4.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.seemore{
+    margin-top: 10px;
+    color: #232f3e;
+    height: 30px;
+
+}
+
